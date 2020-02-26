@@ -1,0 +1,4 @@
+[build]
+base = "monsters-rolodex/"
+publish = "monsters-rolodex/build/"
+command = "yarn build"
