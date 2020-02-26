@@ -1,4 +1,4 @@
 [build]
-base = "monsters-rolodex/"
-publish = "monsters-rolodex/build/"
+base    = "public"
+publish = "public"
 command = "yarn build"
