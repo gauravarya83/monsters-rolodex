@@ -26,7 +26,7 @@ class App extends Component {
     const filteredmonsters = this.state.monsters.filter(monster => monster.name.toLowerCase().includes(this.state.searchField.toLowerCase()));
     return (
       <div className="App">
-          <h1> Monsters Rolodex </h1>
+          <h1> iParam </h1>
           <SearchBox placeholder="search monsters" handleChange={this.handleChange} />
           <CardList monsters={filteredmonsters} />
       </div>
